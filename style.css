@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #5080fe;
+}
+.mainContainer{
+    /* border: 2px solid red; */
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: 20%;
+   background-color: white;
+   color: #0d396a;
+    word-spacing: 1rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    /* border: 2px solid green; */
+    height: 60%;
+    width: 25%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    width: 80%;
+    height: 38%;
+    padding-left:.5rem;
+    font-size: 1.2rem;
+}
+button{
+    width: 40%;
+    height: 35%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background-color: #265cc6;
+    border: none;
+}
+#output{
+    /* border: 2px solid green; */
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    font-size: 3rem;
+    color: white;
+}
+.card{
+    /* border: 2px solid red; */
+    height: 70%;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h2{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    background-color: #1e3cb6;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.weatherDetails{
+    /* border: 2px solid green; */
+    height: 64%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherDetails p{
+    font-size: 1.5rem;
+}
+.weatherDetails span{
+    color: brown;
+    font-weight: 400;
+}
+@media only screen and (max-width:620px){
+    h1{
+        font-size: 1.5rem;
+        width: 90%;
+        word-spacing: .3rem;
+    }
+    .search{
+        width: 60%;
+    }
+    input{
+        width: 90%;
+    }
+  .card{
+    width: 70%;
+  }
+  h3{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
